@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/itigers-project/assets/logo-da65b169.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanilla App Template</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  
+  <script type="module" crossorigin src="/itigers-project/assets/index-9ed40cbe.js"></script>
+  <link rel="stylesheet" href="/itigers-project/assets/index-7289165b.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+        <nav class="header-nav">
+            <a class="header-logo" href="./index.html"><img src="/itigers-project/assets/logo-da65b169.svg" alt="logo" width="44" height="39"></a>
+            <ul class="header-menu-list">
+                <li class="header-menu-item"><a class="header-menu-link" href="#about">about us</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#collection">our collection</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#order">customer order</a></li>
+                <li class="header-menu-item"><a class="header-menu-link" href="#testimonials">testimonials</a></li>
+            </ul>
+        </nav>
+        <address class="header-contact">
+            <a class="header-contact-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+        </address>
+        <ul class="header-soc-list">
+            <li class="header-soc-item">
+                <a class="header-soc-link" href="https://www.facebook.com/goITclub/" target="_blank" alt="facebook"
+                    aria-label="facebook">
+                    <svg class="header-soc-icon" width="28" height="28">
+                        <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-soc-item">
+                <a class="header-soc-link" href="https://www.instagram.com/goitclub/" target="_blank" alt="instagram"
+                    aria-label="instagram">
+                    <svg class="header-soc-icon" width="28" height="28">
+                        <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-soc-item">
+                <a class="header-soc-link" href="https://www.youtube.com/c/GoIT" target="_blank" alt="youtube"
+                    aria-label="youtube">
+                    <svg class="header-soc-icon" width="28" height="28">
+                        <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-youtube"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        <button type="button" class="menu-open-btn" data-menuBTN-open aria-label="menu open button">
+            <svg class="menu-open-btn-icon" width="36" height="24">
+                <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-nav"></use>
+            </svg>
+        </button>
+    </div>
+
+    <div class="mob-menu " data-menu>
+        <div class="mob-menu-container">
+            <a class="mob-menu-contact-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+            <button type="button" class="mob-menu-close-btn" data-menuBTN-close aria-label="menu close button">
+                <svg class="mob-menu-close-btn-icon" width="36" height="36">
+                    <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-x"></use>
+                </svg>
+            </button>
+        </div>
+        <ul class="mob-menu-list">
+            <li class="mob-menu-item"><a class="mob-menu-link" href="#about" aria-label="about us" alt="about us">about
+                    us</a></li>
+            <li class="mob-menu-item"><a class="mob-menu-link" href="#collection" aria-label="our collection"
+                    alt="our collection">our collection</a></li>
+            <li class="mob-menu-item"><a class="mob-menu-link" href="#order" aria-label="customer order"
+                    alt="customer order">customer order</a></li>
+            <li class="mob-menu-item"><a class="mob-menu-link" href="#testimonials" aria-label="testimonials"
+                    alt="testimonials">testimonials</a></li>
+        </ul>
+    </div>
+</header>
+  <main>
+    <section class="hero">
+    <div class="container-hero">
+        <div class="hero-main">
+            <div class="hero-content">
+                <h1 class="hero-title">Reviving the traditional <span class="hero-part">Ukrainian</span> artistry in
+                    every stitch.</h1>
+                <a href="#order" class="hero-link">
+                    <button type="button" class="hero-btn" aria-label="section hero button">Order
+                        <svg class="hero-svg" width="26" height="20">
+                            <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-pointer"></use>
+                        </svg>
+                    </button>
+                </a>
+            </div>
+            <picture class="hero-img">
+                <source srcset="/itigers-project/assets/girl-desk-7289ee32.jpg 1x, /itigers-project/assets/girl-desk-2x-5d56c925.jpg 2x" media="(min-width: 1440px)">
+                <source srcset="/itigers-project/assets/girl-desk-7289ee32.jpg 1x, /itigers-project/assets/girl-desk-2x-5d56c925.jpg 2x" media="(min-width: 1280px)">
+                <source srcset="/itigers-project/assets/girl-tab-bb1e1703.jpg 1x, /itigers-project/assets/girl-tab-2x-d3471902.jpg 2x" media="(min-width: 768px)">
+                <source srcset="/itigers-project/assets/girl-mob-a0bdcf1a.jpg 1x, /itigers-project/assets/girl-mob-2x-c00b6444.jpg 2x" media="(min-width: 375px)">
+                <img src="/itigers-project/assets/girl-mob-a0bdcf1a.jpg" alt="a girl in an embroidered dress" width="335" height="544"
+                    class="hero-image">
+            </picture>
+            <div class="hero-element">
+                <svg class="element-svg" width="52" height="51">
+                    <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-star"></use>
+                </svg>
+                <p class="element-subtitle">
+                    all embroidery is made by hand
+                </p>
+            </div>
+            <img srcset="data:image/jpeg;base64,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 1x, /itigers-project/assets/img-hero-2x-7c25e759.jpg 2x" src="data:image/jpeg;base64,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"
+                alt="embroidered shirt" class="element-img">
+        </div>
+    </div>
+
+</section>
+    <section class="about" id="about">
+  <div class="about-container">
+    <div class="about-wrap">
+      <h2 class="about-title">About Us</h2>
+      <p class="about-text">
+        The store "Vyshyvanka Vibes" is a place where traditional Ukrainian
+        vyshyvanka comes to life with new zest and style. Our store offers a
+        wide selection of high-quality and authentic embroidery, which
+        combines the elegance of traditional needlework and modern design.
+      </p>
+      <details>
+        <summary class="btn-read">
+          <span id="open">read more</span>
+          <span id="close">close</span>
+        </summary>
+        <p class="about-text">
+          In "Vyshyvanka Vibes" you will find various models of embroidery,
+          from classic to modern, corresponding to the latest fashion trends.
+          Our embroidery is made using natural fabrics and is embroidered by
+          highly qualified craftsmen who convey the beauty of Ukrainian
+          culture in every detail.We believe that vyshyvanka is not just
+          clothing, but a symbol of national pride, the heritage of our
+          ancestors and a way of expressing one's individuality. Each
+          embroidery from "Vyshyvanka Vibes" has its own unique history and
+          symbolism, which gives it a special meaning.
+        </p>
+      </details>
+    </div>
+
+    <picture class="about-img">
+      <source media="(min-width: 1440px)" srcset="/itigers-project/assets/about-largedesk-5429e066.jpg 1x, /itigers-project/assets/about-largedesk-2x-4afe874e.jpg 2x" />
+      <source media="(min-width: 1280px)" srcset="/itigers-project/assets/about-desk-04959c98.jpg 1x, /itigers-project/assets/about-desk-2x-f5c65516.jpg 2x" />
+      <source media="(min-width: 768px)" srcset="/itigers-project/assets/about-tab-87e8f000.jpg 1x, /itigers-project/assets/about-tab-2x-ac9d3ee5.jpg 2x" />
+      <source media="(max-width: 768px)" srcset="/itigers-project/assets/about-79857daf.jpg 1x, /itigers-project/assets/about-2x-ed7afc3c.jpg 2x" />
+      <img src="/itigers-project/assets/about-largedesk-5429e066.jpg" alt="vyshyvanka sleeve" width="709" height="545" />
+    </picture>
+  </div>
+</section>
+    <section>
+    <div id="collection" class="collection-conteiner">
+        <h2 class="collection-title">Our collection</h2>
+        <ul class="collection-list">
+            <li class="collection-item">
+                <picture>
+                    <source srcset="/itigers-project/assets/collection-des1-1-920d41ff.jpg 1x, /itigers-project/assets/collection-des1-1-2x-5f8fcfdc.jpg 2x"
+                        media="(min-width: 1440px)" />
+                    <source srcset="/itigers-project/assets/collection-des-1-b6aca3b4.jpg 1x, /itigers-project/assets/collection-des-1-2x-8c71ff15.jpg 2x"
+                        media="(min-width: 1280px)" />
+                    <source srcset="/itigers-project/assets/collection-tab-1-836ee8b5.jpg 1x, /itigers-project/assets/collection-tab-1-2x-8ddc1f79.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <source srcset="/itigers-project/assets/collection-mob-1-36519e51.jpg 1x, /itigers-project/assets/collection-mob-1-2x-283f8000.jpg 2x"
+                        media="(min-width: 375px)" />
+                    <img class="collection-img" src="/itigers-project/assets/collection-mob-1-36519e51.jpg" alt="Women's blouse" width="335"
+                        height="400">
+                </picture>
+                <h3 class="collection-name">AUGUST Poltava women's blouseRING</h3>
+                <p class="collection-text">3300 UAH</p>
+            </li>
+            <li class="collection-item">
+                <picture>
+                    <source srcset="/itigers-project/assets/collection-des1-2-7aeea859.jpg 1x, /itigers-project/assets/collection-des1-2-2x-267ebdfd.jpg 2x"
+                        media="(min-width: 1440px)" />
+                    <source srcset="/itigers-project/assets/collection-des-2-ae2c8671.jpg 1x, /itigers-project/assets/collection-des-2-2x-aff873f0.jpg 2x"
+                        media="(min-width: 1280px)" />
+                    <source srcset="/itigers-project/assets/collection-tab-2-a6a4763b.jpg 1x, /itigers-project/assets/collection-tab-2-2x-07911ca0.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <source srcset="/itigers-project/assets/collection-mob-2-361a0bde.jpg 1x, /itigers-project/assets/collection-mob-2-2x-f0201e65.jpg 2x"
+                        media="(min-width: 375px)" />
+                    <img class="collection-img" src="/itigers-project/assets/collection-mob-2-361a0bde.jpg" alt="Women's blouse" width="335"
+                        height="400">
+                </picture>
+                <h3 class="collection-name">Women's blouse Gorgany</h3>
+                <p class="collection-text">3350 UAH</p>
+            </li>
+            <li class="collection-item">
+                <picture>
+                    <source srcset="/itigers-project/assets/collection-des1-3-c654613b.jpg 1x, /itigers-project/assets/collection-des1-3-2x-652d3e14.jpg 2x"
+                        media="(min-width: 1440px)" />
+                    <source srcset="/itigers-project/assets/collection-des-3-9ee3a4ab.jpg 1x, /itigers-project/assets/collection-des-3-2x-2d5e65cf.jpg 2x"
+                        media="(min-width: 1280px)" />
+                    <source srcset="/itigers-project/assets/collection-tab-3-a93d7291.jpg 1x, /itigers-project/assets/collection-tab-3-2x-ea350478.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <source srcset="/itigers-project/assets/collection-mob-3-e7de135a.jpg 1x, /itigers-project/assets/collection-mob-3-2x-b7a49daf.jpg 2x"
+                        media="(min-width: 375px)" />
+                    <img class="collection-img" src="/itigers-project/assets/collection-mob-3-e7de135a.jpg" alt="Women's blouse" width="335"
+                        height="400">
+                </picture>
+                <h3 class="collection-name">Women's blouse Crimea</h3>
+                <p class="collection-text">4000 UAH</p>
+            </li>
+            <li class="collection-item">
+                <picture>
+                    <source srcset="/itigers-project/assets/collection-des1-4-1f46e96d.jpg 1x, /itigers-project/assets/collection-des1-4-2x-dd1201ba.jpg 2x"
+                        media="(min-width: 1440px)" />
+                    <source srcset="/itigers-project/assets/collection-des-4-8827e397.jpg 1x, /itigers-project/assets/collection-des-4-2x-1d8bc7b8.jpg 2x"
+                        media="(min-width: 1280px)" />
+                    <source srcset="/itigers-project/assets/collection-tab-4-acf5ae10.jpg 1x, /itigers-project/assets/collection-tab-4-2x-17cc845e.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <source srcset="/itigers-project/assets/collection-mob-4-82c4ce1e.jpg 1x, /itigers-project/assets/collection-mob-4-2x-1c8caf6f.jpg 2x"
+                        media="(min-width: 375px)" />
+                    <img class="collection-img" src="/itigers-project/assets/collection-mob-4-82c4ce1e.jpg" alt="Women's blouse" width="335"
+                        height="400">
+                </picture>
+                <h3 class="collection-name">Men's shirt Verkhovina</h3>
+                <p class="collection-text">3100 UAH</p>
+            </li>
+            <li class="collection-item">
+                <picture>
+                    <source srcset="/itigers-project/assets/collection-des1-5-67ee8470.jpg 1x, /itigers-project/assets/collection-des1-5-2x-cc6c1bd8.jpg 2x"
+                        media="(min-width: 1440px)" />
+                    <source srcset="/itigers-project/assets/collection-des-5-7e651fd3.jpg 1x, /itigers-project/assets/collection-des-5-2x-92088eb3.jpg 2x"
+                        media="(min-width: 1280px)" />
+                    <source srcset="/itigers-project/assets/collection-tab-5-d4db3732.jpg 1x, /itigers-project/assets/collection-tab-5-2x-190e2f57.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <source srcset="/itigers-project/assets/collection-mob-5-72b64393.jpg 1x, /itigers-project/assets/collection-mob-5-2x-8d20b382.jpg 2x"
+                        media="(min-width: 375px)" />
+                    <img class="collection-img" src="/itigers-project/assets/collection-mob-5-72b64393.jpg" alt="Women's blouse" width="335"
+                        height="400">
+                </picture>
+                <h3 class="collection-name">Mountain men's shirt</h3>
+                <p class="collection-text">3300 UAH</p>
+            </li>
+            <li class="collection-item">
+                <picture>
+                    <source srcset="/itigers-project/assets/collection-des1-6-526c25c0.jpg 1x, /itigers-project/assets/collection-des1-6-2x-e4ac8773.jpg 2x"
+                        media="(min-width: 1440px)" />
+                    <source srcset="/itigers-project/assets/collection-des-6-bbf4946e.jpg 1x, /itigers-project/assets/collection-des-6-2x-7929a989.jpg 2x"
+                        media="(min-width: 1280px)" />
+                    <source srcset="/itigers-project/assets/collection-tab-6-8c97dce7.jpg 1x, /itigers-project/assets/collection-tab-6-2x-cb324ba4.jpg 2x"
+                        media="(min-width: 768px)" />
+                    <source srcset="/itigers-project/assets/collection-mob-6-0f7d16c2.jpg 1x, /itigers-project/assets/collection-mob-6-2x-775bb2cb.jpg 2x"
+                        media="(min-width: 375px)" />
+                    <img class="collection-img" src="/itigers-project/assets/collection-mob-6-0f7d16c2.jpg" alt="Women's blouse" width="335"
+                        height="400">
+                </picture>
+                <h3 class="collection-name">Men's shirt Yasen</h3>
+                <p class="collection-text">1700 UAH</p>
+            </li>
+        </ul>
+    </div>
+</section>
+    <section class="order" id="order">
+  <div class="order-bg-img"></div>
+  <div class="order-wrap">
+    <div class="order-form-bg-wrap">
+      <h1 class="order-form-title">
+        <span class="order-form-title-accent">Your order</span> is our priority:
+        Personalized approach and quality of service
+      </h1>
+
+      <form class="order-form">
+        <input type="text" name="customer-name" class="order-input" id="customer-name"
+          placeholder="Enter your full name" pattern="[A-Za-zА-Яа-яЁёҐґІіЇїЄє']+" required />
+
+        <input type="email" name="customer-email" class="order-input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}"
+          required placeholder="Enter your email" />
+
+        <textarea name="customer-comment" id="customer-comment" class="order-textarea"
+          placeholder="Comments"></textarea>
+
+        <button type="submit" class="modal-send-btn" aria-label="order button">
+          Send<svg class="order-icon" width="26" height="20">
+            <use href="/itigers-project/assets/symbol-defs-6f37ab64.svg#icon-pointer"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+    <div class="order-bg-bottom-img">
+      <picture class="order-picture">
+        <source srcset="/itigers-project/assets/order-content-dt-1440-1x-a5bc7eb7.jpg 1x, /itigers-project/assets/order-content-dt-1440-2x-31dc895e.jpg 2x" media="(min-width: 1439px)" />
+        <source srcset="/itigers-project/assets/order-content-dt-1440-1x-a5bc7eb7.jpg 1x, /itigers-project/assets/order-content-dt-1440-2x-31dc895e.jpg 2x" media="(min-width: 1279px)" />
+        <source srcset="/itigers-project/assets/order-content-tab-1x-80dd9176.jpg 1x, /itigers-project/assets/order-content-tab-2x-855e2554.jpg 2x" media="(max-width: 767px)" />
+        <img class="order-content-img" src="/itigers-project/assets/order-content-tab-1x-80dd9176.jpg" alt="company prodact" width="639"
+          height="521" />
+      </picture>
+    </div>
+  </div>
+</section>
+    <section id="testimonials" class="testimonials">
+    <div class="container">
+        <h2 class="testimonials-title">Testimonials</h2>
+        <ul class="testimonial-list">
+            <li class="testimonial-item">
+                <img class="testimonials-img"
+                srcset="/itigers-project/assets/maria.tka-893a87a1.png 1x, /itigers-project/assets/maria.tka-893a87a1.png 2x"
+                src="/itigers-project/assets/maria.tka-893a87a1.png" alt="Maria Tkachuk" width="64" height="64"/>
+                    <h3 class="testimomials-item-title"> Maria Tkachuk</h3>
+                        <p class="testimonial-item-text">I was pleasantly surprised by the variety of embroidery offered by Vyshyvanka Vibes. They have models for every taste - from classic to modern. I bought an embroidered dress to celebrate a special occasion and received impeccable service and refinement in every detail. 
+                        </p>
+            </li>
+            <li class="testimonial-item review-tab">
+                <img class="testimonials-img"
+                srcset="/itigers-project/assets/sergiy.ryb-359f9bfe.png 1x, data:image/png;base64,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 2x"
+                src="/itigers-project/assets/sergiy.ryb-359f9bfe.png" alt="Sergey Rybachok" width="64" height="64"/>
+                    <h3 class="testimomials-item-title"> Sergey Rybachok </h3>
+                        <p class="testimonial-item-text"> Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are simply masterpieces! I fell in love with the quality of the materials and the skill of the artisans behind each product. This is my favorite embroidery shop where I always find something special and unique.
+                        </p>
+            </li>
+            <li class="testimonial-item review-desk">
+                <img class="testimonials-img"
+                srcset="/itigers-project/assets/natalia.cha-37e9a311.png 1x, /itigers-project/assets/natalia.cha2x-1aff3f53.png 2x"
+                src="/itigers-project/assets/natalia.cha-37e9a311.png" alt="Natalia Chatuk" width="64" height="64"/>
+                    <h3 class="testimomials-item-title"> Natalia Chatuk </h3>
+                        <p class="testimonial-item-text"> Vyshyvanka Vibes is a real find for everyone who appreciates Ukrainian culture. Their embroidery reflects the spirit and traditions of our people. I not only buy embroidered shirts for myself, but also give them to my friends abroad as a symbol of our beauty and national pride.  
+                        </p>
+            </li>
+        </ul>
+
+    </div>
+</section>
+  </main>
+  <footer class="footer">
+    <section class="footer-menu">
+        <ul class="footer-list">
+            <li class="footer-list-item"><a href="#about" class="footer-link">About us</a></li>
+            <li class="footer-list-item"><a href="#collection" class="footer-link">Our collection</a></li>
+            <li class="footer-list-item"><a href="#order" class="footer-link">CUSTOMER ORDER</a></li>
+            <li class="footer-list-item"><a href="#testimonials" class="footer-link">TEstimonials</a></li>
+        </ul>
+        <h2 class="footer-title">A touch of <span class="footer-title-span">Ukrainian</span> culture in every embroidery</h2>
+    </section>
+    </footer>
+  
+
+  
+</body>
+
+</html>
